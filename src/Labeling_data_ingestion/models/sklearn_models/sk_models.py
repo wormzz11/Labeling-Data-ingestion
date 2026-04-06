@@ -1,5 +1,5 @@
 from sklearn.linear_model import LogisticRegression
-from Labeling_data_ingestion.train.train import train
+from Labeling_data_ingestion.train.train_sklearn import train
 def logistic_model():
     
     return  LogisticRegression(
