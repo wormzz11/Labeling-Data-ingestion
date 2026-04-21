@@ -149,7 +149,7 @@ All values can be overridden live in the Streamlit sidebar without touching the 
 | **Output** | CSV | Ranked and filtered certain positives ready for enrichment |
 
 ## Notes & Limitations
-
+- Automatic training loop is not implemented as large amounts of data are unlikely, it requires changing training file manually, in the ui
 - Manual review rows require human labeling before being merged back into training data
 - Deduplication on the master file is based on `title`
 - MS MARCO scores are raw logits, not probabilities — they can be negative
