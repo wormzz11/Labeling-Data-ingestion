@@ -15,6 +15,11 @@ It trains a lightweight classifier on your labeled metadata, runs it against unl
 
 
 
+<img width="727" height="670" alt="image" src="https://github.com/user-attachments/assets/8435a1e9-c769-40e9-9710-44c48f5d3bdc" />
+
+
+
+
 ## Features
 
 - Trains a relevance classifier on video metadata (title + theme + relevance)
